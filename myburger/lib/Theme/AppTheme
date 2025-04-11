@@ -1,0 +1,68 @@
+import 'package:flutter/material.dart';
+
+class AppTheme {
+  // Light Theme
+  static final ThemeData lightTheme = ThemeData(
+    brightness: Brightness.light,
+    scaffoldBackgroundColor: Color(0xFFF3F4F6),
+    primaryColor: Color(0xFFEF2A39),
+    fontFamily: 'Roboto',
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Color(0xFFF3F4F6),
+      foregroundColor: Colors.black,
+      elevation: 0,
+    ),
+    textTheme: const TextTheme(
+      headlineLarge: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),
+      titleMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.w600, color: Color(0xFF6A6A6A),),
+      bodyMedium: TextStyle(fontSize: 16, color: Colors.black87),
+      bodySmall: TextStyle(fontSize: 14, color: Color(0xFF6A6A6A)), // kategori yazısı
+    ),
+    iconTheme: const IconThemeData(color: Colors.black87),
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(
+      backgroundColor: Color(0xFFEF2A39), // kırmızı gibi görünen yer
+    ),
+    cardColor: Color(0xFFF3F4F6), // kategori arka plan
+    chipTheme: ChipThemeData(
+      backgroundColor: Color(0xFFF3F4F6), // kategori arka plan
+      labelStyle: TextStyle(color: Color(0xFF6A6A6A)), // kategori yazısı
+      secondaryLabelStyle: TextStyle(color: Colors.white),
+      selectedColor: Color(0xFFEF2A39),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Color(0xFF3C2F2F), // buton rengi
+        foregroundColor: Colors.white,
+        textStyle: TextStyle(fontWeight: FontWeight.bold),
+      ),
+    ),
+    colorScheme: ColorScheme.light(
+      primary: Color(0xFFEF2A39),
+      secondary: Color(0xFFFF9633), // yıldız rengi
+    ),
+  );
+
+  // Dark Theme (daha önce verdiğim gibi)
+  static final ThemeData darkTheme = ThemeData(
+    brightness: Brightness.dark,
+    primaryColor: Color(0xFFEF2A39),
+    scaffoldBackgroundColor: Color(0xFF121212),
+    fontFamily: 'Roboto',
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Color(0xFF121212),
+      foregroundColor: Colors.white,
+      elevation: 0,
+    ),
+    textTheme: const TextTheme(
+      headlineLarge: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
+      titleMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.w600, color: Colors.white),
+      bodyMedium: TextStyle(fontSize: 16, color: Color(0xFFB0B0B0)),
+      bodySmall: TextStyle(fontSize: 14, color: Color(0xFFA5A5A5)),
+    ),
+    iconTheme: const IconThemeData(color: Colors.white),
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(
+      backgroundColor: Color(0xFFE53935),
+    ),
+    cardColor: Color(0xFF1E1E1E),
+  );
+}
