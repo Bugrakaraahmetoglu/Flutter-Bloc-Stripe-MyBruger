@@ -19,11 +19,12 @@
 <img src="screenshots/Screenshot_1744372007.png" width="250">
 
 ### 🌑 Dark Theme
+<img src="screenshots/Screenshot_1744371850.png" width="250">
 <img src="screenshots/Screenshot_1744372010.png" width="250">
 <img src="screenshots/Screenshot_1744372017.png" width="250">
 <img src="screenshots/Screenshot_1744372080.png" width="250">
 <img src="screenshots/Screenshot_1744372085.png" width="250">
-<img src="screenshots/Screenshot_1744371850.png" width="250">
+
 
 ## 🛠️ Technologies Used
 
